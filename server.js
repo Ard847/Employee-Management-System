@@ -532,7 +532,7 @@ const prompt = () => inquirer.prompt([
 const init = () => {
   const logoText = logo({ name: "Employee Manager" }).render();
 
-  //console.log(logoText);
+  console.log(logoText);
 
   prompt().then((data) => {
     database(data)
